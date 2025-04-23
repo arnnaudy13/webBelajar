@@ -12,7 +12,7 @@ public class EmailService {
 
     public void sendOtp(String toEmail, String otpCode) {
         String fromEmail = "naudythenew@gmail.com";
-        String password = "egig hcmg sejz pvnm";
+        String password = "code from google setiing app authentification";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", true);
